@@ -1,0 +1,33 @@
+.card {
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.title-card, .card-description {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.title-card {
+    font-weight: bold;
+    color: #333;
+    margin-top: 0.5rem;
+}
+
+.card-description {
+    color: #666;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
